@@ -13,7 +13,7 @@ FFMPEG = 'ffmpeg -i "{input}" -bsf:a aac_adtstoasc -y -c copy {output}'
 
 HEADERS = {
     'Accept': '*',
-    'Accept-Encoding': 'gzip, deflate, br',
+    # 'Accept-Encoding': 'gzip, deflate, br',
     'Accept-Language': 'en,en-US',
     'Sec-Ch-Ua': '"Google Chrome";v="117", "Not;A=Brand";v="8", "Chromium";v="117"',
     'Sec-Ch-Ua-Mobile': '?0',

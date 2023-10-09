@@ -105,6 +105,6 @@ class Core:
             'ordering': ('asc', 'desc')[ordering == '+']
         }
         
-        return Query(payload)
+        return Query(self, payload)
 
 # EOF
