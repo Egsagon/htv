@@ -26,7 +26,7 @@ class Producer:
     id:          int = field(repr = False)
     url:         str = field(repr = False)
     email:       str = field(repr = False)
-    productions: str = field(repr = False)
+    productions: int = field(repr = False)
     avatar:      str = field(repr = False)
     slug:        str = field(repr = False)
 
@@ -53,7 +53,7 @@ class Video:
         return f'htv.Video({self._name})'
     
     def __str__(self) -> str:
-        return self.url
+        return repr(self)
     
     @cached_property
     def metadata(self) -> dict:

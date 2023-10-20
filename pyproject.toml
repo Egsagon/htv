@@ -1,5 +1,5 @@
 [project]
-name = "htvpy"
+name = "htv"
 version = "0.1"
 description = "An API for HTV"
 authors = [{name = "Egsagon", email = "egsagon.git@gmail.com"}]
@@ -17,7 +17,7 @@ requires-python = ">=3.11"
 cli = ["click"]
 
 [project.urls]
-Documentation = "https://htvpy.readthedocs.io"
+# Documentation = "https://htvpy.readthedocs.io"
 Repository = "https://github.com/Egsagon/htv"
 
 [build-system]
