@@ -154,6 +154,13 @@ All tags, categories, brands and constants of any kind are stored
 inside Literals so you can use static type hints to type them
 faster. The used types can be found inside the `htv/consts.py` file.
 
+In the context of fetching a video, there is actually a ton more
+of data sent from the server (*Keep in mind all of it isn't related
+to target video, some might be for the side suggestions, or to be used
+as search parameters*).
+You can view it using the `video.metadata`
+property.
+
 ## License
 
 This project is under the `GPLv3` license. See the `LICENSE` file.
